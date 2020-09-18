@@ -13,7 +13,7 @@
 
     <title>Weather Dashboard</title>
 </head>
-<nav class="navbar navbar-dark bg-dark">
+<nav class="navbar navbar-dark bg-dark justify-content-center">
     <a class="navbar-brand" id="weatherTitle">Weather Dashboard</a>
 </nav>
 
@@ -24,10 +24,28 @@
                 City Search Element
             </div>
             <div class="col-8">
-                <row class="row">
-                    Weather Card Element
+                <row class="row-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2 class="citySelected">
+                                <!-- Selected City Goes Here -->
+                            </h2>
+                            <p id="temperature">
+                                <!-- temperature goes here -->
+                            </p>
+                            <p id="humidity">
+                                <!-- humidity goes here -->
+                            </p>
+                            <p id="wind">
+                                <!-- wind speed goes here -->
+                            </p>
+                            <p id="uvIndex">
+                                <!-- UV Index goes here -->
+                            </p>
+                        </div>
+                    </div>
                 </row>
-                <row class="row">
+                <row class="row-8">
                     5-Day Forcast Element
                 </row>
             </div>
