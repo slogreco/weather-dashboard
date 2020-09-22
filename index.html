@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/style.css">
 
     <title>Weather Dashboard</title>
@@ -20,6 +21,15 @@
         <div class="row">
             <div class="col-4">
                 <!-- City Search Element -->
+                <form class="example" action="action_page.php">
+                    <input type="text" placeholder="City, State" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <!-- Search History -->
+                    </li>
+                </ul>
             </div>
             <div class="col-8">
                 <row class="row-8">
@@ -44,7 +54,9 @@
                     </div>
                 </row>
                 <row class="row-8">
-                    <!-- 5-Day Forcast Element -->
+                    <div class="forcastEl">
+                        <!-- 5-Day Forcast Element -->                        
+                    </div>
                 </row>
             </div>
         </div>
