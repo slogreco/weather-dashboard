@@ -24,7 +24,8 @@
 Weather dashboard that enabales a user to see the weather outlook of multiple cities.
 
 
-[![Product Name Screen Shot][product-screenshot]](https://slogreco.github.io/weather-dashboard/)
+
+![product-screenshot](assets\deployed-version.jpg)
 
 
 
